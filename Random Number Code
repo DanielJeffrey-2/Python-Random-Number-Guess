@@ -1,0 +1,20 @@
+# Created by: Daniel Jeffrey
+# Created on: October 5, 2022
+#This program asks for a random number from 1 to 6, and tells you if you were correct, or incorrect with your guess.
+
+from random import *
+print('Today you are going to guess a number between 1 and 6, Good Luck!')
+b = int(input('Enter your guess for the number'))
+a = randint(1,6)
+
+if a < b:
+
+  print("That was incorrect: %d" %(a))
+
+if a > b:
+
+  print("That was incorrect: %d" %(a))
+
+if a == b:
+
+  print("You were correct!: %d" %(a))
