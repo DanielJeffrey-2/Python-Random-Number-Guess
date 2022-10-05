@@ -4,7 +4,7 @@
 
 from random import *
 print('Today you are going to guess a number between 1 and 6, Good Luck!')
-b = int(input('Enter your guess for the number'))
+b = int(input('Enter your guess for the number:'))
 a = randint(1,6)
 
 if a < b:
